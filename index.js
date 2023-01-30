@@ -1,10 +1,8 @@
 const express = require('express')
 const app = express();  //calling express method
-const cors = require('cors')
+const cors = require('cors');
 
-app.use(cors({
-    origin: "https://frontned-454545.onrender.com",
-}));
+app.use(cors());
 
 app.use(express.json()) //if you want to use express with app then write like these
 const port = process.env.PORT || 5000

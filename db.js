@@ -2,6 +2,9 @@
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
 dotenv.config();
+
+
+
 //  const mongoURL = "mongodb+srv://Home444:Home444@cluster0.dst8lw4.mongodb.net/My_Shop?retryWrites=true&w=majority"
 const mongoURL = process.env.MONGO_URL
 //now createConnection method to established the connection
